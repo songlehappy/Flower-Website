@@ -1,0 +1,777 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.cookie.js"></script>
+		<script type="text/javascript" src="js/Main.js"></script>
+		<script type="text/javascript" src="js/WeChatMall.js"></script>
+		<script type="text/javascript" src="js/ScollTop.js"></script>
+		<script type="text/javascript" src="js/NavShow.js"></script>
+		<script type="text/javascript" src="js/ProductSort.js"></script>
+		<script type="text/javascript" src="js/Login.js"></script>
+	</head>
+
+	<body>
+		<div id="top"><img src="../Resource/img/home_top.png" /></div>
+		<div id="header">
+			<div id="head_t">
+				<div id="header_inner">
+					<ul class="list1">
+						<li>您好，欢迎光临爱上鲜花网</li>
+						<li>本地实体花店</li>
+						<li>
+							<a href="#">收藏爱上鲜花网</a>
+						</li>
+					</ul>
+					<ul class="list2">
+						<li>
+							<a href="../Shopping Cart/index.html" target="_blank">购物车<span>0</span>件|订单<span>0</span>个</a>
+						</li>
+						<li>
+							<a href="../Register/index.html">注册</a>
+						</li>
+						<li>
+							<a href="../Login/index.html">登录</a>
+						</li>
+						<li class="loginsuccess">
+							<p></p>
+							<p class="quit">退出</p>
+						</li>
+						<li class="mall">
+							<p>微信商城</p>
+							<img src="../Resource/img/home_arrow.png" class="arrow" />
+							<img src="../Resource/img/home_code.jpg" class="code" />
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div id="header_inner">
+				<div id="head_c">
+					<div class="search">
+						<input type="text" />
+						<a href="#" class="button">搜索</a>
+						<a href="#" class="order a">订单查询</a>
+						<a href="#" class="talk a">在线客服</a>
+					</div>
+					<ul class="list3">
+						<li>热门关键字：</li>
+						<li>
+							<a href="#">生日</a>
+						</li>
+						<li>
+							<a href="#">白玫瑰</a>
+						</li>
+						<li>
+							<a href="#">红玫瑰</a>
+						</li>
+						<li>
+							<a href="#">送父母</a>
+						</li>
+						<li>
+							<a href="#">送老婆</a>
+						</li>
+						<li>
+							<a href="#">送女朋友</a>
+						</li>
+						<li>
+							<a href="#">表白</a>
+						</li>
+					</ul>
+				</div>
+				<p class="head_b">立即致电<span>本地花店</span>一个电话送花到您家！订花电话<span>400-901-0239</span></p>
+			</div>
+			<div id="head_nav">
+				<div id="header_inner">
+					<ul class="list4">
+						<li class="nav">
+							<a href="#" class="classify">全部商品分类</a>
+							<div class="banner_nav">
+								<dl class="regular">
+									<dt>鲜花用途</dt>
+									<dd>
+										<a href="index.html">爱情鲜花</a>
+									</dd>
+									<dd>
+										<a href="#">生日鲜花</a>
+									</dd>
+									<dd>
+										<a href="#">友情鲜花</a>
+									</dd>
+									<dd>
+										<a href="#">孝敬长辈</a>
+									</dd>
+									<dd>
+										<a href="#">探望病人</a>
+									</dd>
+									<dd>
+										<a href="#">求婚鲜花</a>
+									</dd>
+									<dd>
+										<a href="#">商务用花</a>
+									</dd>
+									<dd>
+										<a href="#">纪念日鲜花</a>
+									</dd>
+									<dd>
+										<a href="#">缅怀日鲜花</a>
+									</dd>
+								</dl>
+								<dl class="regular">
+									<dt>鲜花花材</dt>
+									<dd>
+										<a href="#">玫瑰</a>
+									</dd>
+									<dd>
+										<a href="#">百合</a>
+									</dd>
+									<dd>
+										<a href="#">康乃馨</a>
+									</dd>
+									<dd>
+										<a href="#">郁金香</a>
+									</dd>
+									<dd>
+										<a href="#">扶郎</a>
+									</dd>
+									<dd>
+										<a href="#">马蹄莲</a>
+									</dd>
+									<dd>
+										<a href="#">向日葵</a>
+									</dd>
+									<dd>
+										<a href="#">百合玫瑰</a>
+									</dd>
+									<dd>
+										<a href="#">百合康乃馨</a>
+									</dd>
+								</dl>
+								<dl class="regular">
+									<dt>鲜花价格</dt>
+									<dd>
+										<a href="#">100-200元</a>
+									</dd>
+									<dd>
+										<a href="#">200-300元</a>
+									</dd>
+									<dd>
+										<a href="#">300-500元</a>
+									</dd>
+									<dd>
+										<a href="#">500-800元</a>
+									</dd>
+									<dd>
+										<a href="#">800元以上</a>
+									</dd>
+								</dl>
+								<dl class="regular">
+									<dt>开业花篮</dt>
+									<dd>
+										<a href="#">婚庆花篮</a>
+									</dd>
+									<dd>
+										<a href="#">祝寿花篮</a>
+									</dd>
+									<dd>
+										<a href="#">乔迁花篮</a>
+									</dd>
+									<dd>
+										<a href="#">庆典花篮</a>
+									</dd>
+									<dd>
+										<a href="#">开业花篮</a>
+									</dd>
+									<dd>
+										<a href="#">水果礼篮</a>
+									</dd>
+									<dd>
+										<a href="#">胸花</a>
+									</dd>
+									<dd>
+										<a href="#">桌花</a>
+									</dd>
+									<dd>
+										<a href="#">缅怀日鲜花</a>
+									</dd>
+								</dl>
+							</div>
+						</li>
+						<li>
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">全部鲜花</a>
+						</li>
+						<li>
+							<a href="#">爱情鲜花</a>
+						</li>
+						<li>
+							<a href="#">生日鲜花</a>
+						</li>
+						<li>
+							<a href="#">开业花篮</a>
+						</li>
+						<li>
+							<a href="#">绿植</a>
+						</li>
+						<li>
+							<a href="#">精品礼盒</a>
+						</li>
+						<li>
+							<a href="#">永生花</a>
+						</li>
+						<li>
+							<a href="#">周花主题</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="main">
+			<div id="main_inner">
+				<div id="nav_name">
+					<a href="../Home/index.html">首页&gt;&gt;</a>
+					<a href="#">鲜花类型</a>
+				</div>
+				<div id="product">
+					<div class="product_l">
+						<div class="product_nav">
+							<dl class="product_chunk">
+								<dt>鲜花用途</dt>
+								<dd><a href="index.html">爱情鲜花</a></dd>
+								<dd><a href="#">求婚鲜花</a></dd>
+								<dd><a href="#">纪念日鲜花</a></dd>
+								<dd><a href="#">生日鲜花</a></dd>
+								<dd><a href="#">友情鲜花</a></dd>
+								<dd><a href="#">探望病人</a></dd>
+								<dd><a href="#">孝敬长辈</a></dd>
+								<dd><a href="#">商务用花</a></dd>
+								<dd><a href="#">缅怀日鲜花</a></dd>
+							</dl>
+							<dl class="product_chunk">
+								<dt>缅怀</dt>
+								<dd><a href="#">生日</a></dd>
+								<dd><a href="#">父亲节</a></dd>
+								<dd><a href="#">感恩节</a></dd>
+								<dd><a href="#">中秋节</a></dd>
+								<dd><a href="#">圣诞节</a></dd>
+								<dd><a href="#">光棍节</a></dd>
+								<dd><a href="#">妇女节</a></dd>
+								<dd><a href="#">教师节</a></dd>
+								<dd><a href="#">母亲节</a></dd>
+								<dd><a href="#">情人节</a></dd>
+								<dd><a href="#">七夕节</a></dd>
+							</dl>
+							<dl class="product_chunk">
+								<dt>花材</dt>
+								<dd><a href="#">菊花</a></dd>
+								<dd><a href="#">费列罗巧克力</a></dd>
+								<dd><a href="#">玫瑰</a></dd>
+								<dd><a href="#">百合</a></dd>
+								<dd><a href="#">康乃馨</a></dd>
+								<dd><a href="#">向日葵</a></dd>
+								<dd><a href="#">百合玫瑰</a></dd>
+								<dd><a href="#">玫瑰康乃馨</a></dd>
+								<dd><a href="#">百合康乃馨</a></dd>
+								<dd><a href="#">小熊</a></dd>
+								<dd><a href="#">郁金香</a></dd>
+								<dd><a href="#">绣球</a></dd>
+								<dd><a href="#">马蹄莲</a></dd>
+								<dd><a href="#">满天星</a></dd>
+								<dd><a href="#">桔梗</a></dd>
+								<dd><a href="#">扶郎</a></dd>
+								<dd><a href="#">黄莺</a></dd>
+							</dl>
+							<dl class="product_chunk">
+								<dt>价格</dt>
+								<dd><a href="#">100-200元</a></dd>
+								<dd><a href="#">200-300元</a></dd>
+								<dd><a href="#">300-500元</a></dd>
+								<dd><a href="#">500-800元</a></dd>
+								<dd><a href="#">800元以上</a></dd>
+							</dl>
+							<dl class="product_chunk">
+								<dt>鲜花类别</a></dt>
+								<dd><a href="#">永生花</dd>
+								<dd><a href="#">鲜花花束</a></dd>
+								<dd><a href="#">手捧花</a></dd>
+								<dd><a href="#">瓶插花</a></dd>
+								<dd><a href="#">创意花盒</a></dd>
+								<dd><a href="#">卡通花束</a></dd>
+								<dd><a href="#">其它</a></dd>
+							</dl>
+							<dl class="product_chunk">
+								<dt>支数</dt>
+								<dd><a href="#">07</a></dd>
+								<dd><a href="#">14枝</a></dd>
+								<dd><a href="#">04枝</a></dd>
+								<dd><a href="#">01枝</a></dd>
+								<dd><a href="#">一大扎</a></dd>
+								<dd><a href="#">02枝</a></dd>
+								<dd><a href="#">99枝以上</a></dd>
+								<dd><a href="#">99枝</a></dd>
+								<dd><a href="#">66枝</a></dd>
+								<dd><a href="#">56枝</a></dd>
+								<dd><a href="#">50枝</a></dd>
+								<dd><a href="#">48枝</a></dd>
+								<dd><a href="#">40枝</a></dd>
+								<dd><a href="#">36枝</a></dd>
+								<dd><a href="#">33枝</a></dd>
+								<dd><a href="#">30枝</a></dd>
+								<dd><a href="#">29枝</a></dd>
+								<dd><a href="#">26枝</a></dd>
+								<dd><a href="#">25枝</a></dd>
+								<dd><a href="#">24枝</a></dd>
+								<dd><a href="#">22枝</a></dd>
+								<dd><a href="#">21枝</a></dd>
+								<dd><a href="#">20枝</a></dd>
+								<dd><a href="#">19枝</a></dd>
+								<dd><a href="#">18枝</a></dd>
+								<dd><a href="#">16枝</a></dd>
+								<dd><a href="#">13枝</a></dd>
+								<dd><a href="#">12枝</a></dd>
+								<dd><a href="#">11枝</a></dd>
+								<dd><a href="#">10枝</a></dd>
+								<dd><a href="#">09枝</a></dd>
+								<dd><a href="#">08枝</a></dd>
+								<dd><a href="#">06枝</a></dd>
+								<dd><a href="#">05枝</a></dd>
+								<dd><a href="#">03枝</a></dd>
+							</dl>
+							<dl class="product_chunk">
+								<dt>颜色</dt>
+								<dd><a href="#">橙色</a></dd>
+								<dd><a href="#">绿色</a></dd>
+								<dd><a href="#">紫红色</a></dd>
+								<dd><a href="#">橘红色</a></dd>
+								<dd><a href="#">香槟色</a></dd>
+								<dd><a href="#">蓝色</a></dd>
+								<dd><a href="#">白色</a></dd>
+								<dd><a href="#">黄色</a></dd>
+								<dd><a href="#">紫色</a></dd>
+								<dd><a href="#">粉色</a></dd>
+								<dd><a href="#">红色</a></dd>
+							</dl>
+							<dl class="product_chunk">
+								<dt>按对象选花</dt>
+								<dd><a href="#">病人</a></dd>
+								<dd><a href="#">长辈</a></dd>
+								<dd><a href="#">客户</a></dd>
+								<dd><a href="#">老师</a></dd>
+								<dd><a href="#">领导</a></dd>
+								<dd><a href="#">父母</a></dd>
+								<dd><a href="#">朋友</a></dd>
+								<dd><a href="#">恋人</a></dd>
+							</dl>
+						</div>
+						<div class="sales_volume">
+							<h2>销量排行</h2>
+							<div class="sales_chunk">
+								<ul class="sales_list">
+									<li class="sales_well">1</li>
+									<li><img src="../Resource/img/commend_01.jpg" /></li>
+									<li class="information">
+										<a>蜜一样香甜-送爱人,送老婆,送老公,求婚,表白,送女朋友,男朋友,送朋友,生日</a>
+										<p><b>¥159</b>&nbsp;<del>¥269</del></p>
+										<p>已售出<b>12582</b>件</p>
+									</li>
+								</ul>
+								<ul class="sales_list">
+									<li class="sales_well">2</li>
+									<li><img src="../Resource/img/commend_02.jpg" /></li>
+									<li class="information">
+										<a>红豆相思-21枝优质红玫瑰+相思豆,求婚,表白送老婆,送老公,送女朋友,送男朋友</a>
+										<p><b>¥239</b>&nbsp;<del>¥309</del></p>
+										<p>已售出<b>12578</b>件</p>
+									</li>
+								</ul>
+								<ul class="sales_list">
+									<li class="sales_well">3</li>
+									<li><img src="../Resource/img/commend_03.jpg" /></li>
+									<li class="information">
+										<a>爱的意义-33朵香槟玫瑰,送爱人,送老婆,送老公,求婚,表白,送女朋友,男朋友,送朋友,生日</a>
+										<p><b>¥299</b>&nbsp;<del>¥389</del></p>
+										<p>已售出<b>12577</b>件</p>
+									</li>
+								</ul>
+								<ul class="sales_list">
+									<li>4</li>
+									<li><img src="../Resource/img/commend_04.jpg" /></li>
+									<li class="information">
+										<a>春颜-33枝嫣红玫瑰,求婚,表白,生日送老婆,送老公,送女朋友,送男朋友</a>
+										<p><b>¥289</b>&nbsp;<del>¥389</del></p>
+										<p>已售出<b>12574</b>件</p>
+									</li>
+								</ul>
+								<ul class="sales_list">
+									<li>5</li>
+									<li><img src="../Resource/img/commend_05.jpg" /></li>
+									<li class="information">
+										<a>蓝色至爱-12枝蓝色妖姬,求婚,表白,生日送老婆,送老公,送女朋友,送男朋友</a>
+										<p><b>¥269</b>&nbsp;<del>¥389</del></p>
+										<p>已售出<b>12574</b>件</p>
+									</li>
+								</ul>
+								<ul class="sales_list">
+									<li>6</li>
+									<li><img src="../Resource/img/commend_06.jpg" /></li>
+									<li class="information">
+										<a>你是我的爱-33朵红玫瑰,送爱人,送老婆,送老公,求婚,表白,送女朋友,男朋友,送朋友,生日</a>
+										<p><b>¥269</b>&nbsp;<del>¥389</del></p>
+										<p>已售出<b>12574</b>件</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="product_r">
+						<div class="product_sort">
+							<ul class="price_sort">
+								<li class="default">价格</li>
+								<li class="default">销量</li>
+								<li class="default">人气</li>
+								<li class="default">时间</li>
+							</ul>
+							<ul class="keyword_sort">
+							<li class="keyword_default">香槟玫瑰</li>
+							<li class="keyword_default">粉玫瑰</li>
+							<li class="keyword_default">全部</li>
+							</ul>
+							<p>总共有697件商品,32件商品为一页,共22页第<span>1</span>页</p>
+						</div>
+						<div class="product_show">
+							<dl class="show_chunk">
+								<dt><a href="../Commodity Details Page/index2.html" target="_blank"><img src="../Resource/img/show_01.jpg" /></a></dt>
+								<dd><a href="../Commodity Details Page/index2.html" target="_blank">给你幸福 友情，生日,送老婆,送老公,送女朋友,送男朋友，送领导，送长辈</a></dd>
+								<dd><span>¥189</span>&nbsp;<del>¥339</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><a href="../Commodity Details Page/index.html" target="_blank"><img src="../Resource/img/show_02.jpg" /></a></dt>
+								<dd><a href="../Commodity Details Page/index.html" target="_blank">春颜-33枝嫣红玫瑰,求婚,表白,生日送老婆,送老公,送女朋友,送男朋友</a></dd>
+								<dd><span>¥289</span>&nbsp;<del>¥389</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><a href="../Commodity Details Page/index3.html" target="_blank"><img src="../Resource/img/show_03.jpg" /></a></dt>
+								<dd><a href="../Commodity Details Page/index3.html" target="_blank">我想你了 19枝香槟玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友</a></dd>
+								<dd><span>¥189</span>&nbsp;<del>¥299</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><a href="../Commodity Details Page/index4.html" target="_blank"><img src="../Resource/img/show_04.jpg" /></a></dt>
+								<dd><a href="../Commodity Details Page/index4.html" target="_blank">牵手一辈子 16朵粉色玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友(礼盒)</a></dd>
+								<dd><span>¥219</span>&nbsp;<del>¥339</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><a href="../Commodity Details Page/index5.html" target="_blank"><img src="../Resource/img/show_05.jpg" /></a></dt>
+								<dd><a href="../Commodity Details Page/index5.html" target="_blank">穿越的爱恋 36支粉玫瑰 表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友</a></dd>
+								<dd><span>¥299</span>&nbsp;<del>¥419</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><a href="../Commodity Details Page/index6.html" target="_blank"><img src="../Resource/img/show_06.jpg" /></a></dt>
+								<dd><a href="../Commodity Details Page/index6.html" target="_blank">你我的约定 白玫瑰33枝 求婚,表白,生日送老婆,送老公,送女朋友,送男朋友</a></dd>
+								<dd><span>¥359</span>&nbsp;<del>¥599</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_07.jpg" /></dt>
+								<dd><a>我的女神 33枝粉色玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友(礼盒)</a></dd>
+								<dd><span>¥359</span>&nbsp;<del>¥569</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_08.jpg" /></dt>
+								<dd><a>天涯相随 19枝香槟玫瑰高级礼盒 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友(礼盒)</a></dd>
+								<dd><span>¥229</span>&nbsp;<del>¥329</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_09.jpg" /></dt>
+								<dd><a>洋洋洒洒 马蹄莲白玫瑰绣球精品混合花束 生日,送朋友,送同学，友情，亲情，暗恋的人，送女朋友,送男朋友</a></dd>
+								<dd><span>¥569</span>&nbsp;<del>¥789</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_10.jpg" /></dt>
+								<dd><a>爱意浓浓-4支向日葵，18支玫瑰，7朵桔梗，2朵乒乓菊， 友情，生日,送老婆,送老公,送女朋友,送男朋友，送领导，送长辈</a></dd>
+								<dd><span>¥529</span>&nbsp;<del>¥699</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_11.jpg" /></dt>
+								<dd><a>朋友之情-11枝白玫瑰,送朋友,送同事,生日,聚会看望,祝福</a></dd>
+								<dd><span>¥169</span>&nbsp;<del>¥239</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_12.jpg" /></dt>
+								<dd><a>温暖回忆 19朵粉+白+香槟玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友(礼盒)</a></dd>
+								<dd><span>¥269</span>&nbsp;<del>¥349</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_13.jpg" /></dt>
+								<dd><a>因为是你19朵香槟玫瑰 求婚,表白,生日,情人节,送老婆,送老公</a></dd>
+								<dd><span>¥299</span>&nbsp;<del>¥399</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_14.jpg" /></dt>
+								<dd><a>真情相伴 33朵黄玫瑰 表白,生日,周年纪念，情人节,送老婆,送女朋友,送男朋友</a></dd>
+								<dd><span>¥319</span>&nbsp;<del>¥569</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_15.jpg" /></dt>
+								<dd><a>花儿朵朵 19朵白色玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友（礼盒）</a></dd>
+								<dd><span>¥229</span>&nbsp;<del>¥299</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_16.jpg" /></dt>
+								<dd><a>热恋 19支红玫瑰 友情，生日,送老婆,送老公,送女朋友,送男朋友，送领导，送长辈</a></dd>
+								<dd><span>¥279</span>&nbsp;<del>¥339</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_17.jpg" /></dt>
+								<dd><a>蠢蠢欲动 19支粉玫瑰 友情，生日,送老婆,送老公,送女朋友,送男朋友，送领导，送长辈</a></dd>
+								<dd><span>¥279</span>&nbsp;<del>¥389</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_18.jpg" /></dt>
+								<dd><a>爱的誓言 19支香槟玫瑰 友情，生日,送老婆,送老公,送女朋友,送男朋友，送领导，送长辈</a></dd>
+								<dd><span>¥279</span>&nbsp;<del>¥339</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_19.jpg" /></dt>
+								<dd><a>娴静如娇花照水 33朵粉玫瑰 友情，生日,送老婆,送老公,送女朋友,送男朋友，送领导，送长辈</a></dd>
+								<dd><span>¥349</span>&nbsp;<del>¥649</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_20.jpg" /></dt>
+								<dd><a>捧在手心－永生花礼盒 送朋友 送领导 送老师 送父母 送老婆</a></dd>
+								<dd><span>¥459</span>&nbsp;<del>¥499</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_21.jpg" /></dt>
+								<dd><a>彩色人生－永生花礼盒 送朋友 送领导 送老师 送父母 送老婆</a></dd>
+								<dd><span>¥629</span>&nbsp;<del>¥759</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_22.jpg" /></dt>
+								<dd><a>此情不渝 520礼盒求婚鲜花,表白鲜花,生日鲜花,情人节鲜花,送老婆</a></dd>
+								<dd><span>¥389</span>&nbsp;<del>¥699</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_23.jpg" /></dt>
+								<dd><a>爱如我心 33朵红玫瑰鲜花心形礼盒 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友</a></dd>
+								<dd><span>¥289</span>&nbsp;<del>¥369</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_24.jpg" /></dt>
+								<dd><a>甜美可爱 11枝香槟玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友</a></dd>
+								<dd><span>¥199</span>&nbsp;<del>¥299</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_25.jpg" /></dt>
+								<dd><a>思恋如水 11朵红玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友(礼盒)</a></dd>
+								<dd><span>¥199</span>&nbsp;<del>¥269</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_26.jpg" /></dt>
+								<dd><a>守护着你-11朵香槟玫瑰+桔梗花搭配,送爱人,送老婆,送老公,求婚,表白,送女朋友,男朋友,送朋友,生日</a></dd>
+								<dd><span>¥189</span>&nbsp;<del>¥249</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_27.jpg" /></dt>
+								<dd><a>爱在身边 11朵粉红色玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友(礼盒)</a></dd>
+								<dd><span>¥169</span>&nbsp;<del>¥299</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_28.jpg" /></dt>
+								<dd><a>一曲相思 生日,送朋友,送同学，友情，亲情，暗恋的人，送女朋友,送男朋友</a></dd>
+								<dd><span>¥299</span>&nbsp;<del>¥499</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_29.jpg" /></dt>
+								<dd><a>为你动心 19枝红玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友,送男朋友</a></dd>
+								<dd><span>¥219</span>&nbsp;<del>¥319</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_30.jpg" /></dt>
+								<dd><a>遇见你怦然心动 33朵白玫瑰 表白,生日,送朋友,送同学，友情，亲情，暗恋的人，送女朋友,送男朋友</a></dd>
+								<dd><span>¥289</span>&nbsp;<del>¥359</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_31.jpg" /></dt>
+								<dd><a>玫瑰的故事 -18枝红玫瑰、香槟玫瑰 求婚,表白,生日,情人节,送老婆,送老公,送女朋友</a></dd>
+								<dd><span>¥239</span>&nbsp;<del>¥399</del></dd>
+							</dl>
+							<dl class="show_chunk">
+								<dt><img src="../Resource/img/show_32.jpg" /></dt>
+								<dd><a>幸福臂弯 8支多头香水粉百合 生日、送老师，送领导，送父母，送妈妈，送长辈，教师节，母亲节，感恩节，父亲节、看望病人</a></dd>
+								<dd><span>¥339</span>&nbsp;<del>¥459</del></dd>
+							</dl>
+						</div>
+						<div class="switchpage">
+							<ul class="page_list">
+								<li class="page_switch">1</li>
+								<li>2</li>
+								<li>3</li>
+								<li>4</li>
+								<li>5</li>
+								<li>...</li>
+								<li>下一页</li>
+								<p>第<span>1</span>/723页&nbsp;共3614记录</p>
+								<li><input type="text" /></li>
+								<p>页</p>
+								<li>确定</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div id="foot">
+				<div id="footer_inner">
+					<dl class="order1">
+						<dt>客户服务</dt>
+						<dd>
+							<a href="#">隐私条款</a>
+						</dd>
+						<dd>
+							<a href="#">公司简介</a>
+						</dd>
+						<dd>
+							<a href="#">安全条款</a>
+						</dd>
+						<dd>
+							<a href="#">联系方式</a>
+						</dd>
+						<dd>
+							<a href="#">服务声明</a>
+						</dd>
+					</dl>
+					<dl class="order1">
+						<dt>购物指南</dt>
+						<dd>
+							<a href="#">绿植寓意</a>
+						</dd>
+						<dd>
+							<a href="#">鲜花枝数寓意</a>
+						</dd>
+						<dd>
+							<a href="#">购物须知</a>
+						</dd>
+						<dd>
+							<a href="#">送花礼仪</a>
+						</dd>
+						<dd>
+							<a href="#">如何购买</a>
+						</dd>
+					</dl>
+					<dl class="order1">
+						<dt>支付方式</dt>
+						<dd>
+							<a href="#">支付方式</a>
+						</dd>
+						<dd>
+							<a href="#">银行转账</a>
+						</dd>
+						<dd>
+							<a href="#">在线补款</a>
+						</dd>
+					</dl>
+					<dl class="order1">
+						<dt>配送信息</dt>
+						<dd>
+							<a href="#">关于配送</a>
+						</dd>
+						<dd>
+							<a href="#">定时配送</a>
+						</dd>
+						<dd>
+							<a href="#">配送说明</a>
+						</dd>
+						<dd>
+							<a href="#">发票说明</a>
+						</dd>
+						<dd>
+							<a href="#">配送范围及费用</a>
+						</dd>
+					</dl>
+					<dl class="order1">
+						<dt>售后服务</dt>
+						<dd>
+							<a href="#">投诉建议</a>
+						</dd>
+						<dd>
+							<a href="#">订单查询</a>
+						</dd>
+						<dd>
+							<a href="#">订单取消</a>
+						</dd>
+					</dl>
+					<dl class="order1"><img src="../Resource/img/home_51.jpg" /></dl>
+				</div>
+			</div>
+			<div id="footer_inner">
+				<div>
+					<img src="../Resource/img/home_52.jpg" class="first" />
+					<img src="../Resource/img/home_53.jpg" />
+					<img src="../Resource/img/home_54.jpg" />
+					<img src="../Resource/img/home_55.jpg" />
+					<img src="../Resource/img/home_56.jpg" />
+					<img src="../Resource/img/home_57.jpg" />
+					<img src="../Resource/img/home_58.jpg" />
+				</div>
+				<p>本地订花热线 : 400-901-0239</p>
+				<p>蜀ICP备15011281号</p>
+			</div>
+		</div>
+		<div id="bottom">
+			<div id="bottom_inner">
+				<img src="../Resource/img/home_bottom_01.jpg" class="bottom_left" />
+				<img src="../Resource/img/home_bottom_02.jpg" class="bottom_right" />
+				<ul class="list9">
+					<li>
+						<a href="#" class="white">在线下单多久能送到？</a>
+					</li>
+					<li>
+						<a href="#" class="white">过生日送什么花合适？</a>
+					</li>
+					<li>
+						<a href="#" class="white">表白送什么花？</a>
+					</li>
+					<li>
+						<a href="#">看望病人，送什么花好？</a>
+					</li>
+					<li>
+						<a href="#" class="white">送爱人什么花好？</a>
+					</li>
+					<li>
+						<a href="#">给长辈送什么花？</a>
+					</li>
+					<li>
+						<a href="#">朋友新店开业送什么花好？</a>
+					</li>
+					<li>
+						<a href="#" class="white">鲜花包月多少钱一月？</a>
+					</li>
+					<li>
+						<a href="#" class="white">普通异性朋友生日送什么花？</a>
+					</li>
+					<li>
+						<a href="#">乔迁绿植价格？</a>
+					</li>
+					<li>
+						<a href="#" class="white">更多购花疑问快捷服务....</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div id="right">
+			<img src="../Resource/img/home_right.jpg" class="tell" />
+			<div class="goTop">
+				<p class="upper">顶部</p>
+				<div class="arrowTop"><img src="../Resource/img/home_arrow.jpg" /></div>
+			</div>
+		</div>
+	</body>
+
+</html>
